@@ -15,7 +15,7 @@ from keras.layers import Conv1D,MaxPooling1D
 from keras.layers import Dropout,Bidirectional
 from keras.callbacks import TensorBoard
 from keras.layers.recurrent import LSTM
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 import re
 import numpy as np
 import os
